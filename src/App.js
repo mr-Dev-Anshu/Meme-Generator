@@ -4,8 +4,8 @@ import Edit from "./pages/Edit";
 function App() {
   return (
 
-    <div  className="bg-black">
-      <p className="p-3 px-4 bg-white rounded-md text-black font-bold text-xl w-48 ml-[40%] m-4">Meme Generator</p>
+    <div>
+      <p className="p-3 px-4 bg-black rounded-md text-white font-bold text-xl w-48 ml-[40%] m-4">Meme Generator</p>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/edit" element={<Edit />} />

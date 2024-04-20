@@ -9,7 +9,7 @@ const Home = () => {
         memes().then(memes => setData(memes.data.memes))
     }, [])
 
-    return (
+    return ( 
         <div className="flex flex-wrap">
             {data.map(el => (<Card img={el.url} title={el.name} />))
             }

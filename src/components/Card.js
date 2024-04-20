@@ -6,7 +6,7 @@ const Card = (props) => {
     const navigate = useNavigate()
 
     return (
-        <div className="border-2 border-black bg-white rounded-md h-311 w-[23%] m-2">
+        <div className="border-2 border-black rounded-md h-311 w-[23%] m-1">
             <div className="flex justify-center items-center h-[85%]"><img  src={props.img} alt="" /></div>
             <div className="flex m-1 justify-around">
             <p className="font-semibold mx-2">{props.title}</p>
@@ -15,5 +15,5 @@ const Card = (props) => {
            </div>
     )
 }
-
+ 
 export default Card
